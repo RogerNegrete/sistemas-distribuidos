@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.1.3">
+  <diagram name="Page-1" id="Te2ypgJDS2IuDJOkFt8m">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="cliente.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="332" y="8" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="servicio_preguntas.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="219" y="152" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Historial de conversación" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="207" y="278" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="servicio_diagnostico.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="214" y="382" width="227" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Gemini" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="526" width="111" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="servicio_hospital.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="437" y="526" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Hospital más cercano" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="653" width="213" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Consulta inicial" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.26;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="189" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Genera preguntas dinámicas" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=0;entryX=0.47;entryY=1;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Completa diálogo" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Analiza información" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1.01;entryX=0.2;entryY=0.01;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Genera diagnóstico/respuesta" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.01;entryX=0.38;entryY=1.01;" edge="1" parent="1" source="6" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="257" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Resultados" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1.01;entryX=0.24;entryY=0.01;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Solicita ubicación" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=0.01;entryX=0.94;entryY=1;" edge="1" parent="1" source="7" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="481" />
+              <mxPoint x="551" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Busca hospital más cercano" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Depende de resultados de D" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=0.01;entryX=1;entryY=0.95;" edge="1" parent="1" source="7" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
