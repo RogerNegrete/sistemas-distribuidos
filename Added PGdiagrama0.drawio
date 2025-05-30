@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
+  <diagram name="Page-1" id="xa3nVtxRrRhbT2Tu-OYj">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Almacén de Datos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="537" y="336" width="418" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Entidades Externas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="399" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Procesos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="427" y="159" width="587" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Gestión de Información" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752" y="184" width="227" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Gestión de Transacciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="462" y="184" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Ciudadano" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="145" y="33" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Agencia Gubernamental" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="361" width="231" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Base de Datos del Sistema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="654" y="361" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Registro y contenido." style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=0;entryY=0.31;" edge="1" parent="1" source="7" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="123" />
+              <mxPoint x="306" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Solicitudes y respuestas." style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0;entryY=0.26;" edge="1" parent="1" source="7" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="123" />
+              <mxPoint x="118" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Solicitudes y respuestas." style="curved=1;startArrow=none;endArrow=block;exitX=0.37;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="263" />
+              <mxPoint x="206" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Datos de usuarios." style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.68;entryY=0;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Datos de transacciones." style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1.01;entryX=0.2;entryY=0;" edge="1" parent="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="263" />
+              <mxPoint x="636" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
