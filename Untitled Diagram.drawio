@@ -1,79 +1,125 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.1.3">
-  <diagram name="Page-1" id="SKjYtJoIedTVVzi5Itgg">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.13">
+  <diagram name="Page-1" id="natB4_aDUBY6Cogrqejp">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Cliente" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="305" y="8" width="111" height="54" as="geometry" />
+        <mxCell id="2" value="Procesos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="177" width="1163" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="servicio_preguntas.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="183" y="152" width="217" height="54" as="geometry" />
+        <mxCell id="3" value="Almacenes de Datos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1467" y="371" width="937" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="servicio_diagnostico.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="296" width="227" height="54" as="geometry" />
+        <mxCell id="4" value="Entidades Externas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="1193" height="491" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Gemini" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="151" y="440" width="111" height="54" as="geometry" />
+        <mxCell id="5" value="Ciudadano" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="512" y="33" width="135" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="servicio_hospital.py" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="502" y="440" width="203" height="54" as="geometry" />
+        <mxCell id="6" value="Agencia Gubernamental" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="494" y="408" width="231" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Inicia consulta" style="curved=1;startArrow=none;endArrow=block;exitX=0.03;exitY=1;entryX=0.38;entryY=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="7" value="Base de Datos de Usuarios" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1502" y="408" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Base de Datos de Transacciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1799" y="396" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Base de Datos de Contenidos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2109" y="396" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Gestión de Usuarios" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="202" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Gestión de Transacciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1256" y="202" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Gestión de Contenidos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2129" y="202" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Registro, credenciales de inicio de sesión" style="curved=1;startArrow=none;endArrow=block;exitX=0.28;exitY=1;entryX=0;entryY=0.42;" edge="1" parent="1" source="5" target="10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="222" y="107" />
+              <mxPoint x="500" y="132" />
+              <mxPoint x="500" y="177" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="Genera preguntas dinámicas" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="3" target="2">
+        <mxCell id="14" value="Estado de autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.4;entryX=0.84;entryY=1;" edge="1" parent="1" source="10" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="361" y="107" />
+              <mxPoint x="701" y="177" />
+              <mxPoint x="701" y="132" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="Genera historial de conversación" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.31;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="15" value="Solicitudes de servicio" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0;entryY=0.41;" edge="1" parent="1" source="5" target="11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="291" y="251" />
+              <mxPoint x="110" y="132" />
+              <mxPoint x="110" y="177" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="Envía historial para análisis" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=1;entryX=0.16;entryY=0;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="16" value="Respuestas a solicitudes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.39;entryX=0;entryY=0.82;" edge="1" parent="1" source="11" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="108" y="395" />
+              <mxPoint x="300" y="177" />
+              <mxPoint x="300" y="132" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="Respuesta procesada" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0;entryX=0.34;entryY=1;" edge="1" parent="1" source="5" target="4">
+        <mxCell id="17" value="Solicitudes de información" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.78;entryX=0;entryY=0.42;" edge="1" parent="1" source="5" target="12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="304" y="395" />
+              <mxPoint x="906" y="132" />
+              <mxPoint x="906" y="177" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="Devuelve respuesta al cliente" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=1.01;entryY=0.98;" edge="1" parent="1" source="4" target="2">
+        <mxCell id="18" value="Entrega de contenido" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.41;entryX=1;entryY=0.67;" edge="1" parent="1" source="12" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="516" y="251" />
-              <mxPoint x="516" y="107" />
+              <mxPoint x="1102" y="177" />
+              <mxPoint x="1102" y="132" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="Solicita almacenamiento de datos" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.31;entryY=0;" edge="1" parent="1" source="4" target="6">
+        <mxCell id="19" value="Datos de servicio y actualizaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0;entryX=0.49;entryY=1;" edge="1" parent="1" source="6" target="11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="502" y="395" />
+              <mxPoint x="694" y="371" />
+              <mxPoint x="694" y="326" />
+              <mxPoint x="1369" y="281" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="Almacena datos o complementa análisis" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0.99;entryY=1;" edge="1" parent="1" source="6" target="4">
+        <mxCell id="20" value="Solicitudes y datos de ciudadanos" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1;entryX=0.35;entryY=0;" edge="1" parent="1" source="11" target="6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="704" y="395" />
+              <mxPoint x="1349" y="281" />
+              <mxPoint x="525" y="326" />
+              <mxPoint x="525" y="371" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=block;endArrow=block;exitX=0.45;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1626" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.71;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1929" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="12" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
