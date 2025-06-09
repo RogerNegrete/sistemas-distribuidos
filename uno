@@ -31,19 +31,19 @@
         <mxCell id="S1Kwv-COcboza6fEU1Rb-11" value="Obtener informaciÃ³n general" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
           <mxGeometry x="228" y="813" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-12" value="ì˜·&#xa;Gerente" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-12" value="ì˜·&#xa;Gerente" style="whiteSpace=wrap;strokeWidth=2;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="27" y="55" width="118" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-13" value="ì˜·&#xa;Secretaria" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-13" value="ì˜·&#xa;Secretaria" style="whiteSpace=wrap;strokeWidth=2;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="20" y="223" width="133" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-14" value="ì˜·&#xa;Empleado" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-14" value="ì˜·&#xa;Empleado" style="whiteSpace=wrap;strokeWidth=2;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="22" y="447" width="130" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-15" value="ì˜·&#xa;Visitante" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-15" value="ì˜·&#xa;Visitante" style="whiteSpace=wrap;strokeWidth=2;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="25" y="633" width="123" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-16" value="í ¾í´–&#xa;ChatBot" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-16" value="í ¾í´–&#xa;ChatBot" style="whiteSpace=wrap;strokeWidth=2;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="28" y="813" width="117" height="78" as="geometry" />
         </mxCell>
         <mxCell id="S1Kwv-COcboza6fEU1Rb-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="S1Kwv-COcboza6fEU1Rb-12" target="S1Kwv-COcboza6fEU1Rb-4">
