@@ -1,22 +1,22 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="lTn3zv6sxwfn5echVwnv">
-    <mxGraphModel dx="1802" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="S1Kwv-COcboza6fEU1Rb-3" value="Sistema de Gestión de Citas" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="203" y="20" width="280" height="906" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-4" value="Establecer horario de atención" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-4" value="Establecer horario&#xa; de atención" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="228" y="55" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-5" value="Registrar evento adicional" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-5" value="Registrar evento&#xa;adicional" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="235" y="189" width="217" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-6" value="Reagendar cita" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-6" value="Reagendar cita" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="275" y="293" width="137" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="S1Kwv-COcboza6fEU1Rb-7" value="Solicitar cita" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+        <mxCell id="S1Kwv-COcboza6fEU1Rb-7" value="Solicitar cita" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="283" y="397" width="121" height="54" as="geometry" />
         </mxCell>
         <mxCell id="S1Kwv-COcboza6fEU1Rb-8" value="Revisar horario" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
