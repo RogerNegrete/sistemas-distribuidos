@@ -1,9 +1,178 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4">
   <diagram name="Page-1" id="B3aw9Ijy1Z0OdB1-csKp">
-    <mxGraphModel>
+    <mxGraphModel dx="1346" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nCz04bdd-rL5KikrqiO1-1" value="Salidas del Sistema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="112" width="310" height="507" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-2" value="Sistema Central" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="575" y="20" width="310" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-3" value="Entradas al Sistema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="115" width="310" height="523" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-4" value="Cliente / Socio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="92" y="180" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-5" value="Entrenador / Personal" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="300" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-6" value="Administración" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="92" y="420" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-7" value="Sistema de Control de Acceso" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="524" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-8" value="Sistema de Gestión del Gimnasio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="286" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-9" value="Cliente / Socio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="178" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-10" value="Entrenador / Personal" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1176" y="298" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-11" value="Administración" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="402" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-12" value="Sistema de Control de Acceso" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="506" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-13" value="Datos de registro" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.09;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-4" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry x="-0.1204" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="166" />
+              <mxPoint x="575" y="166" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-14" value="Reserva de clase" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-4" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry x="-0.097" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="208" />
+              <mxPoint x="575" y="208" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-15" value="Solicitud de pago" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.93;entryX=0.19;entryY=0;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-4" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="250" />
+              <mxPoint x="575" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-16" value="Creación/modificación de clases" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.17;entryX=0;entryY=0.25;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-5" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="302" />
+              <mxPoint x="575" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-17" value="Registro de progreso de cliente" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0;entryY=0.89;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-5" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="362" />
+              <mxPoint x="575" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-18" value="Nuevos planes de membresía" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.25;entryX=0.26;entryY=1;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-6" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="422" />
+              <mxPoint x="575" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-19" value="Gestión de personal" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0.35;entryY=1;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-6" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry x="-0.2452" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="484" />
+              <mxPoint x="575" y="484" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-20" value="Registro de entrada/salida" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.4;entryY=1;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-7" target="nCz04bdd-rL5KikrqiO1-8">
+          <mxGeometry x="-0.3887" y="23" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="563" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-21" value="Confirmación de reserva" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-9">
+          <mxGeometry x="0.209" y="3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="163" />
+              <mxPoint x="1130" y="163" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-22" value="Estado de la membresía" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-9">
+          <mxGeometry x="0.1049" y="5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="205" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-23" value="Recordatorios de pago" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0;entryX=0;entryY=0.93;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="248" />
+              <mxPoint x="1130" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-24" value="Listado de asistentes a clase" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="299" />
+              <mxPoint x="1130" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-25" value="Agenda de clases" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0;entryY=0.91;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="356" />
+              <mxPoint x="1130" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-26" value="Reportes financieros" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="398" />
+              <mxPoint x="1130" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-27" value="Estadísticas de asistencia" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=1;entryX=0;entryY=0.83;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-11">
+          <mxGeometry x="0.0866" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="462" />
+              <mxPoint x="1130" y="462" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCz04bdd-rL5KikrqiO1-28" value="Autorización / Denegación de acceso" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nCz04bdd-rL5KikrqiO1-8" target="nCz04bdd-rL5KikrqiO1-12">
+          <mxGeometry x="0.3276" y="15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="545" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
