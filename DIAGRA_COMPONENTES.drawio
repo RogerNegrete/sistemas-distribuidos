@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lwonQxIqzes1S_wUgZxZ-1" value="Persistencia" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lwonQxIqzes1S_wUgZxZ-1" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="318" y="774" width="842" height="366" as="geometry" />
         </mxCell>
-        <mxCell id="lwonQxIqzes1S_wUgZxZ-2" value="Servicios (Lógica de Negocio)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="lwonQxIqzes1S_wUgZxZ-2" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="537" y="375" width="703" height="326" as="geometry" />
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-3" value="Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -47,7 +47,7 @@
           <mxGeometry x="1009" y="436" width="169" height="54" as="geometry" />
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-15" value="MariaDB Principal&#xa;• users&#xa;• eventos&#xa;• citas" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="671" y="790" width="140" height="151" as="geometry" />
+          <mxGeometry x="671" y="810" width="140" height="151" as="geometry" />
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-16" value="MariaDB Réplica" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="676" y="1030" width="130" height="77" as="geometry" />
@@ -63,14 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-19" value="Usa" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.33;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="lwonQxIqzes1S_wUgZxZ-11" target="lwonQxIqzes1S_wUgZxZ-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="846" y="520" />
-              <mxPoint x="780" y="520" />
-              <mxPoint x="780" y="570" />
-              <mxPoint x="828" y="570" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-20" value="Usa" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="1" source="lwonQxIqzes1S_wUgZxZ-11" target="lwonQxIqzes1S_wUgZxZ-13">
           <mxGeometry relative="1" as="geometry">
@@ -123,6 +116,12 @@
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lwonQxIqzes1S_wUgZxZ-35" value="Persistencia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="713" y="774" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lwonQxIqzes1S_wUgZxZ-37" value="Servicios (Lógica de Negocio)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="215" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
