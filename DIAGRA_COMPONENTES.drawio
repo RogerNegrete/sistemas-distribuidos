@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="Page-1" id="cLnl78TK6VFA2XXWojxr">
-    <mxGraphModel dx="1376" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1383" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="lwonQxIqzes1S_wUgZxZ-6" value="webapp (Páginas JSX)&#xa;•&#x9;LoginForm.jsx&#xa;•&#x9;HorarioGerente.jsx&#xa;•&#x9;CitasUsuario.jsx&#xa;•&#x9;EventosUsuario.jsx&#xa;•&#x9;RegistrarEvento.jsx&#xa;•&#x9;ReagendarCita.jsx&#xa;•&#x9;AgendaCompleta.jsx&#xa;•&#x9;ChatBot.jsx&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="668" y="151" width="215" height="159" as="geometry" />
         </mxCell>
-        <mxCell id="lwonQxIqzes1S_wUgZxZ-7" value="edu.escuela.servlet&#xa;•&#x9;authController.js&#xa;•&#x9;usuarioController.js&#xa;•&#x9;citaController.js&#xa;•&#x9;eventoController.js&#xa;•&#x9;agendaController.js&#xa;•&#x9;chatbotController.js&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="lwonQxIqzes1S_wUgZxZ-7" value="edu.empresa.servlet&#xa;•&#x9;authController.js&#xa;•&#x9;usuarioController.js&#xa;•&#x9;citaController.js&#xa;•&#x9;eventoController.js&#xa;•&#x9;agendaController.js&#xa;•&#x9;chatbotController.js&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="266" y="400" width="217" height="126" as="geometry" />
         </mxCell>
         <mxCell id="lwonQxIqzes1S_wUgZxZ-8" value="edu.empresa.conexion&#xa;• DBUtil.java" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
