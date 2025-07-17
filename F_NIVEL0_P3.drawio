@@ -1,99 +1,105 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.4">
   <diagram name="Page-1" id="C0dSzgZAGxPnvNgpUvUg">
     <mxGraphModel dx="1144" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GajSdVImSGX_FDYT7U-b-1" value="Datos financieros" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-1" value="Datos financieros" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="20" y="238" width="148" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-2" value="A1 Registro de&#xa;Transacciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-2" value="A1 Registro de&#xa;Transacciones" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="218" y="218" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-3" value="Inventario" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-3" value="Inventario" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="45" y="386" width="97" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-4" value="A2 Control de&#xa;Inventario" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-4" value="A2 Control de&#xa;Inventario" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="226" y="378" width="245" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-5" value="Reportes de uso" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-5" value="Reportes de uso" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="279" y="118" width="138" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-6" value="A3 Análisis&#xa;de Datos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-6" value="A3 Análisis&#xa;de Datos" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="657" y="110" width="212" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-7" value="1 Base de datos&#xa;financiera" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="656" y="214" width="214" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-8" value="2 Base de datos&#xa;de inventario" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="655" y="350" width="215" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-9" value="A4 Generación&#xa;de Reportes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-9" value="A4 Generación&#xa;de Reportes" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1007" y="218" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-10" value="Estados financieros" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-10" value="Estados financieros" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1520" y="193" width="162" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-11" value="Reportes de gestión" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-11" value="Reportes de gestión" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1518" y="282" width="166" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-1" target="GajSdVImSGX_FDYT7U-b-2">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" parent="1" source="GajSdVImSGX_FDYT7U-b-1" target="GajSdVImSGX_FDYT7U-b-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-3" target="GajSdVImSGX_FDYT7U-b-4">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.51;rounded=0;" parent="1" source="GajSdVImSGX_FDYT7U-b-3" target="GajSdVImSGX_FDYT7U-b-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-5" target="GajSdVImSGX_FDYT7U-b-6">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" parent="1" source="GajSdVImSGX_FDYT7U-b-5" target="GajSdVImSGX_FDYT7U-b-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-15" value="datos procesados" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-2" target="GajSdVImSGX_FDYT7U-b-7">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-15" value="datos procesados" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=14;fontStyle=1" parent="1" source="GajSdVImSGX_FDYT7U-b-2" target="GajSdVImSGX_FDYT7U-b-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-16" value="actualizaciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-4" target="GajSdVImSGX_FDYT7U-b-8">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-16" value="actualizaciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;fontStyle=1;fontSize=14;" parent="1" source="GajSdVImSGX_FDYT7U-b-4" target="GajSdVImSGX_FDYT7U-b-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-17" value="estadísticas" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.25;entryY=0;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-6" target="GajSdVImSGX_FDYT7U-b-9">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-17" value="estadísticas" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.25;entryY=0;rounded=0;fontSize=14;fontStyle=1" parent="1" source="GajSdVImSGX_FDYT7U-b-6" target="GajSdVImSGX_FDYT7U-b-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="939" y="137" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-7" target="GajSdVImSGX_FDYT7U-b-9">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="GajSdVImSGX_FDYT7U-b-7" target="GajSdVImSGX_FDYT7U-b-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.3;entryY=1;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-8" target="GajSdVImSGX_FDYT7U-b-9">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.3;entryY=1;rounded=0;" parent="1" source="GajSdVImSGX_FDYT7U-b-8" target="GajSdVImSGX_FDYT7U-b-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="939" y="405" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-20" value="informes contables" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.21;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-9" target="GajSdVImSGX_FDYT7U-b-10">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-20" value="informes contables" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.21;entryX=0;entryY=0.5;rounded=0;fontSize=14;fontStyle=1" parent="1" source="GajSdVImSGX_FDYT7U-b-9" target="GajSdVImSGX_FDYT7U-b-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1393" y="213" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GajSdVImSGX_FDYT7U-b-21" value="indicadores de rendimiento" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="GajSdVImSGX_FDYT7U-b-9" target="GajSdVImSGX_FDYT7U-b-11">
+        <mxCell id="GajSdVImSGX_FDYT7U-b-21" value="indicadores de rendimiento" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0;entryY=0.5;rounded=0;fontStyle=1;fontSize=14;" parent="1" source="GajSdVImSGX_FDYT7U-b-9" target="GajSdVImSGX_FDYT7U-b-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1393" y="302" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SmMr6WpvvjPUMKvwsMSN-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Base de datos&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;financiera&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="232" width="100" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="SmMr6WpvvjPUMKvwsMSN-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Base de datos&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;de inventario&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="378" width="110" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
