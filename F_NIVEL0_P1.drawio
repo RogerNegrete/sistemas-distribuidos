@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.4">
   <diagram name="Page-1" id="sX5UAU_ZHsNCuBW0D5zK">
-    <mxGraphModel dx="1430" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="953" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,14 +19,14 @@
         <mxCell id="nSBrpyc1NGZLhtPeb2lM-5" value="A3 Generación&#xa;de Documentos" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="820" y="472" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="nSBrpyc1NGZLhtPeb2lM-6" value="1 Base de datos&#xa;de miembros" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="865" y="646" width="215" height="110" as="geometry" />
+        <mxCell id="nSBrpyc1NGZLhtPeb2lM-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="840" y="646" width="250" height="44" as="geometry" />
         </mxCell>
         <mxCell id="nSBrpyc1NGZLhtPeb2lM-7" value="A4 Proceso&#xa;de Facturación" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1150" y="720" width="258" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="nSBrpyc1NGZLhtPeb2lM-8" value="2 Historial de&#xa;transacciones" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1193" y="842" width="215" height="110" as="geometry" />
+        <mxCell id="nSBrpyc1NGZLhtPeb2lM-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
+          <mxGeometry x="1150" y="842" width="330" height="48" as="geometry" />
         </mxCell>
         <mxCell id="nSBrpyc1NGZLhtPeb2lM-9" value="Comprobante de pago" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1557" y="727" width="182" height="39" as="geometry" />
@@ -54,7 +54,7 @@
             <mxPoint x="771.4999999999995" y="306" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nSBrpyc1NGZLhtPeb2lM-15" value="registro" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.395;entryY=0.182;rounded=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" parent="1" source="nSBrpyc1NGZLhtPeb2lM-5" target="nSBrpyc1NGZLhtPeb2lM-6" edge="1">
+        <mxCell id="nSBrpyc1NGZLhtPeb2lM-15" value="registro" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.565;entryY=-0.015;rounded=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" parent="1" source="nSBrpyc1NGZLhtPeb2lM-5" target="nSBrpyc1NGZLhtPeb2lM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSBrpyc1NGZLhtPeb2lM-16" value="datos de pago" style="startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0.2;entryY=-0.01;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;fontStyle=1" parent="1" source="nSBrpyc1NGZLhtPeb2lM-5" target="nSBrpyc1NGZLhtPeb2lM-7" edge="1">
@@ -75,6 +75,12 @@
               <mxPoint x="1301" y="832" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BAcpn7GDQTHssYIYuJxS-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Base de datos&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;de miembros&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="653" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BAcpn7GDQTHssYIYuJxS-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Historial de&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;transacciones&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="851" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
