@@ -1,9 +1,174 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram name="Page-1" id="K_D1WdGIlO1niymxam3W">
-    <mxGraphModel>
+    <mxGraphModel dx="1634" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-1" value="Entrenador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="35" height="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-2" value="&quot;Interfaz de Gestión de Rutinas&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="343" y="20" width="244" height="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-2">
+          <mxGeometry x="117" y="109" width="10" height="995" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-4" value="&quot;Controlador de Rutinas&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="720" y="20" width="196" height="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-4">
+          <mxGeometry x="93" y="163" width="10" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-4">
+          <mxGeometry x="93" y="487" width="10" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-7" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-4">
+          <mxGeometry x="93" y="878" width="10" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-8" value="&quot;Modelo/BD Usuario&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="20" width="172" height="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-9" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-8">
+          <mxGeometry x="81" y="217" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-10" value="&quot;Modelo/BD Rutina&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="20" width="163" height="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-11" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-10">
+          <mxGeometry x="77" y="541" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-12" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="6iFY97oGWLX_5bMuuiA9-10">
+          <mxGeometry x="77" y="932" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-13" value="Iniciar asignación de rutina" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-1" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-14" value="Solicitar lista de usuarios del entrenador" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-15" value="Consultar usuarios asignados" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-5" target="6iFY97oGWLX_5bMuuiA9-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="967" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-16" value="Retornar lista de usuarios" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-8" target="6iFY97oGWLX_5bMuuiA9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="968" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-17" value="Enviar lista de usuarios" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-5" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-18" value="Mostrar lista de usuarios" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-19" value="Seleccionar usuario(id_usuario)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-1" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-20" value="Solicitar rutinas disponibles" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-21" value="Consultar rutinas" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-6" target="6iFY97oGWLX_5bMuuiA9-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-22" value="Retornar lista de rutinas" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-10" target="6iFY97oGWLX_5bMuuiA9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-23" value="Enviar lista de rutinas" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-6" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-24" value="Mostrar rutinas disponibles" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-25" value="Confirmar asignación(id_usuario, id_rutina)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-1" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-26" value="Guardar asignación de rutina" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-27" value="Asignar rutina a usuario(id_usuario, id_rutina)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-7" target="6iFY97oGWLX_5bMuuiA9-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-28" value="Retornar resultado (éxito)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-10" target="6iFY97oGWLX_5bMuuiA9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="1006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-29" value="Notificar éxito de la asignación" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-7" target="6iFY97oGWLX_5bMuuiA9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-30" value="Desplegar mensaje de confirmación" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6iFY97oGWLX_5bMuuiA9-3" target="6iFY97oGWLX_5bMuuiA9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="1114" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iFY97oGWLX_5bMuuiA9-31" value="Aquí también se presenta la opción&#xa;para crear una nueva rutina." style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="490" y="635" width="270" height="67" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
