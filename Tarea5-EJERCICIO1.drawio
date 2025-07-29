@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="Page-1" id="gfU6Psf4KhTMNy2VeK_d">
-    <mxGraphModel dx="953" dy="1650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="1650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,6 +17,9 @@
         </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Base de Datos&lt;/span&gt;" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="720" width="780" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="D0S42bkxyc6C5o60O4pQ-10" value="MariaDB Master&#xa;(Escrituras)" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=0" vertex="1" parent="D0S42bkxyc6C5o60O4pQ-1">
+          <mxGeometry x="240" y="59" width="174" height="78" as="geometry" />
         </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-2" value="Backend" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="420" width="790" height="270" as="geometry" />
@@ -44,9 +47,6 @@
         </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-9" value="Servicio de Usuarios" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="578" y="602" width="211" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="D0S42bkxyc6C5o60O4pQ-10" value="MariaDB Master&#xa;(Escrituras)" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="261" y="779" width="175" height="78" as="geometry" />
         </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-11" value="MariaDB Slave&#xa;(Lecturas)" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="264" y="941" width="164" height="78" as="geometry" />
@@ -135,11 +135,14 @@
         <mxCell id="D0S42bkxyc6C5o60O4pQ-45" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
           <mxGeometry x="764" y="610" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="D0S42bkxyc6C5o60O4pQ-46" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
-          <mxGeometry x="412" y="790" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-51" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
           <mxGeometry x="483" y="25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D0S42bkxyc6C5o60O4pQ-53" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="408" y="790" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D0S42bkxyc6C5o60O4pQ-54" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="405" y="950" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
