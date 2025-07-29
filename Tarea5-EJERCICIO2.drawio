@@ -1,9 +1,96 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="Page-1" id="u-j1MAHIEHISLHcihNLa">
-    <mxGraphModel>
+    <mxGraphModel dx="1144" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W7nPuqUGvq19WFER1JUw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cluster de Base de Datos&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1479" y="58" width="668" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Servidor de Aplicación&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="979" y="52" width="255" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Servidor Web / Proxy&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="456" y="31" width="304" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Dispositivo del Usuario&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="284" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-5" value="Navegador Web&#xa;(Cliente)" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="74" y="183" width="176" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-6" value="Lector QR&#xa;(Cámara del dispositivo)" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="45" y="70" width="234" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-7" value="Interfaz Web (UI)&#xa;Contiene la UI y el ChatBot" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="481" y="110" width="254" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-8" value="Aplicación Backend" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1004" y="107" width="205" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-9" value="(Nodo)&#xa;MariaDB Maestro" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1504" y="162" width="184" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-10" value="(Nodo)&#xa;MariaDB Esclavo" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1942" y="119" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-11" value="Acceso inicial" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.02;entryY=0;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-6" target="W7nPuqUGvq19WFER1JUw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-12" value="HTTP/HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.02;entryY=1;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-5" target="W7nPuqUGvq19WFER1JUw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-13" value="Llamadas API REST&#xa;(vía JSON)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.15;entryX=0;entryY=0.16;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-7" target="W7nPuqUGvq19WFER1JUw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="115" />
+              <mxPoint x="979" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-14" value="WebSocket&#xa;(para ChatBot)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0;entryY=0.84;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-7" target="W7nPuqUGvq19WFER1JUw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="201" />
+              <mxPoint x="979" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-15" value="JDBC (Escrituras)" style="startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0;entryY=0.49;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-8" target="W7nPuqUGvq19WFER1JUw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-16" value="JDBC (Lecturas)" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.16;entryX=0;entryY=0.27;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-8" target="W7nPuqUGvq19WFER1JUw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-17" value="Replicación Binlog" style="startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.73;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;fontStyle=1" edge="1" parent="1" source="W7nPuqUGvq19WFER1JUw-9" target="W7nPuqUGvq19WFER1JUw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-22" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="220" y="189" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-23" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-24" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="710" y="119" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="119" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-26" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="169" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7nPuqUGvq19WFER1JUw-27" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="128" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
