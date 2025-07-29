@@ -39,10 +39,10 @@
         <mxCell id="D0S42bkxyc6C5o60O4pQ-6" value="API REST Gateway" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="328" y="476" width="195" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="D0S42bkxyc6C5o60O4pQ-7" value="Servicio de Citas" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="D0S42bkxyc6C5o60O4pQ-7" value="Servicio de Citas" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="55" y="602" width="184" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="D0S42bkxyc6C5o60O4pQ-8" value="Servicio de Agenda" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="D0S42bkxyc6C5o60O4pQ-8" value="Servicio de Agenda" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="326" y="602" width="202" height="54" as="geometry" />
         </mxCell>
         <mxCell id="D0S42bkxyc6C5o60O4pQ-9" value="Servicio de Usuarios" style="whiteSpace=wrap;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
